@@ -1,0 +1,74 @@
+[
+  {
+    "id": "MP01",
+    "location": "Machu Picchu",
+    "description": "An ancient Incan city set high in the Andes Mountains in Peru, offering breathtaking views and a mysterious glimpse into the past. Travelers can explore the historic ruins surrounded by lush green mountains and deep valleys.",
+    "country": "Peru",
+    "visitDate": "2025-07-15",
+    "status": "Not Yet",
+    "image": "machu_picchu.jpeg"
+  },
+  {
+    "id": "TK02",
+    "location": "Tokyo",
+    "description": "A bustling metropolis blending ultra-modern skyscrapers with centuries-old temples and shrines. Visitors are drawn to Tokyo’s vibrant neighborhoods, unique fashion, and exquisite culinary delights.",
+    "country": "Japan",
+    "visitDate": "2024-11-30",
+    "status": "Visited",
+    "image": "tokyo.jpeg"
+  },
+  {
+    "id": "SN03",
+    "location": "Santorini",
+    "description": "A picturesque island in the Aegean Sea, known for its white-washed buildings with blue domes and stunning sunset views. Santorini's charming villages and crystal-clear waters make it a paradise for travelers seeking relaxation and beauty.",
+    "country": "Greece",
+    "visitDate": "2026-05-20",
+    "status": "Not Yet",
+    "image": "santorini.jpeg"
+  },
+  {
+    "id": "GC04",
+    "location": "Grand Canyon",
+    "description": "A massive natural wonder in Arizona, USA, showcasing awe-inspiring geological formations and breathtaking views. Known for its immense size and intricate layers, it’s a top destination for hiking and nature photography.",
+    "country": "USA",
+    "visitDate": "2023-10-10",
+    "status": "Visited",
+    "image": "grand_canyon.jpeg"
+  },
+  {
+    "id": "GW05",
+    "location": "Great Wall of China",
+    "description": "An iconic structure that stretches thousands of miles across northern China, embodying ancient engineering marvels. The Great Wall is a symbol of China’s historic legacy, drawing visitors from around the world to walk its storied paths.",
+    "country": "China",
+    "visitDate": "2025-09-01",
+    "status": "Not Yet",
+    "image": "great_wall_of_china.jpeg"
+  },
+  {
+    "id": "PA06",
+    "location": "Paris",
+    "description": "The City of Light, famous for its rich history, iconic landmarks like the Eiffel Tower, and world-renowned art museums. Paris offers a blend of cultural experience, historic architecture, and romantic ambiance.",
+    "country": "France",
+    "visitDate": "2024-05-10",
+    "status": "Visited",
+    "image": "paris.jpeg"
+  },
+  {
+    "id": "SY07",
+    "location": "Sydney Opera House",
+    "description": "An architectural masterpiece set against the stunning backdrop of Sydney Harbour. This iconic venue hosts world-class performances and offers breathtaking views of the Sydney skyline.",
+    "country": "Australia",
+    "visitDate": "2025-12-30",
+    "status": "Not Yet",
+    "image": "sydney.jpeg"
+  },
+  {
+    "id": "SE08",
+    "location": "Serengeti National Park",
+    "description": "A vast and stunning ecosystem in Tanzania, known for its incredible wildlife and the annual migration of millions of animals. The Serengeti provides visitors with unparalleled safari experiences and unique views of African wildlife.",
+    "country": "Tanzania",
+    "visitDate": "2026-02-15",
+    "status": "Not Yet",
+    "image": "serengeti.jpeg"
+  }
+]

@@ -1,0 +1,26 @@
+@startwbs breakdown
+* Product Breakdown
+** System
+*** Manage User
+**** Register
+**** Login
+**** Delete
+*** Cart
+**** Add to Cart
+**** Remove from Cart
+**** Reset Cart
+*** Buy Products
+*** Transaction System
+**** Payment Option
+**** Logger
+**** Tracker
+*** Delivery System
+**** Tracker
+**** Scheduler
+** Actors
+*** User
+**** Buyer
+***** Make Payment
+**** Seller
+***** List Product
+@endwbs

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-11-07" view-index="0" gantt-divider-location="436" resource-divider-location="300" version="3.3.3312" locale="en_QA">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="231" order="0"/>
+        <field id="tpd4" name="Begin date" width="79" order="1"/>
+        <field id="tpd5" name="End date" width="110" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[3]]></timeline>
+        <option id="color.recent"><![CDATA[#99cc00 #d6d9df]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="208" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="9" uid="d1658747d1204de79c4fa66ef74c215b" name="Requirements Gathering" meeting="false" start="2024-10-01" duration="7" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="c4e35e3ea917407ab58f484145360744" name="Propose Data Flow Diagrams" meeting="false" start="2024-10-08" duration="11" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="7cb909fdf2e643158e51c2e9f8a3c69c" name="Design Class Diagram" meeting="false" start="2024-10-08" duration="11" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="e5fe69ff477b4ba5ad64410e70a9ed06" name="Design Use Case Diagram" meeting="false" start="2024-10-08" duration="11" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="d5c3a190c95e42e7833778676cc6fee4" name="Design Principles Justifications" meeting="false" start="2024-10-21" duration="1" complete="0" thirdDate="2024-10-21" thirdDate-constraint="1" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="7f68a84e2d2348e6a51c6446f7c9144f" name="Diagrams Comparison" meeting="false" start="2024-10-20" duration="1" complete="0" thirdDate="2024-10-20" thirdDate-constraint="1" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="f8d53eb206a943ddae4068c201626111" name="Develop 4 UC Specifications" meeting="false" start="2024-10-19" duration="6" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="07c646e5f1f641429613d219240a052c" name="Milestone 1 recording" meeting="false" start="2024-10-25" duration="1" complete="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="e31766fade99412b8eda4036d3967648" name="Milestone 1 README.md" meeting="false" start="2024-10-25" duration="1" complete="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="0" uid="a4c1de38b09f403baf3f5364db180d7a" name="Milestone 1 Submission" meeting="true" start="2024-10-26" duration="0" complete="0" expand="true"/>
+        <task id="12" uid="49defa417ae84fe2b9a1a19b312c9bd7" name="Design 2 Sequence Diagrams" meeting="false" start="2024-11-01" duration="8" complete="0" thirdDate="2024-11-01" thirdDate-constraint="1" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="520489457ad642ed86d0b03cb7d43f90" name="Identify System Constraints &amp; Quality Attributes" meeting="false" start="2024-11-05" duration="6" complete="0" thirdDate="2024-11-05" thirdDate-constraint="1" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="b8423d6b14984ff79a31c11deca47dd3" name="Implement Use Cases in JavaFX" meeting="false" start="2024-11-01" duration="18" complete="0" thirdDate="2024-11-01" thirdDate-constraint="1" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="730d430d5f50488b89cba81629a5665e" name="Non-Functional Testing" meeting="false" start="2024-11-19" duration="2" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="34ae5952f712492c8323382334bb95d7" name="Generate and integrate code" meeting="false" start="2024-11-19" duration="1" complete="0" expand="true"/>
+        <task id="17" uid="db61e697236d4e39922d1168607184e6" name="Milestone 2 README.md" meeting="false" start="2024-11-22" duration="1" complete="0" thirdDate="2024-11-22" thirdDate-constraint="1" expand="true"/>
+        <task id="18" uid="01c446a0fce34904bc4bed1f68d13239" name="Milestone 2 recording" meeting="false" start="2024-11-22" duration="1" complete="0" thirdDate="2024-11-22" thirdDate-constraint="1" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="48c7c2967d4f491b872ee77835f9dd42" name="Milestone 2 Submission" meeting="true" start="2024-11-23" duration="0" complete="0" thirdDate="2024-11-23" thirdDate-constraint="1" expand="true"/>
+        <task id="20" uid="55ee2675c60f4087b611197bdc5ca5c1" name="Implement Creational/Structural Design Pattern" meeting="false" start="2024-11-25" duration="8" complete="0" thirdDate="2024-11-25" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" uid="45b9ae778bd14a8abebb965b079d2d3c" name="Implement Behavioral Design Pattern" meeting="false" start="2024-11-25" duration="8" complete="0" thirdDate="2024-11-25" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" uid="104ade4b0beb46bdbbe2c44594cbb708" name="Update Class Diagram to Reflect Design Patterns" meeting="false" start="2024-12-03" duration="1" complete="0" thirdDate="2024-11-19" thirdDate-constraint="1" expand="true"/>
+        <task id="23" uid="2057b5e671fc4d9ab64a3f12e290ab2d" name="Develop Gantt Chart" meeting="false" start="2024-11-25" duration="4" complete="0" thirdDate="2024-11-25" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" uid="1459345640294f5c888e61cd51fbec11" name="Develop Dependency Graph" meeting="false" start="2024-11-29" duration="4" complete="0" thirdDate="2024-11-29" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" uid="5491096bbddc4d9dbf9df5253ce38414" name="Reflection Report" meeting="false" start="2024-11-25" duration="11" complete="0" thirdDate="2024-11-25" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" uid="11ba07d3c92e49858f07b3e2a6ada58e" name="Prepare Slides" meeting="false" start="2024-11-30" duration="3" complete="0" thirdDate="2024-11-30" thirdDate-constraint="1" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" uid="de58fda8cfc247478911626f914ee35e" name="Presentation" meeting="true" start="2024-12-03" duration="0" complete="0" thirdDate="2024-12-03" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" uid="91985d1faa7c4ce9bdf52f23b98d42d7" name="MIlstone 3 README.md" meeting="false" start="2024-12-03" duration="3" complete="0" thirdDate="2024-12-03" thirdDate-constraint="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="5c932d80ad9e405bb4c6c299f96d8a23" name="Milestone 3 Submission" meeting="true" start="2024-12-07" duration="0" complete="0" thirdDate="2024-12-07" thirdDate-constraint="1" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

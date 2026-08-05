@@ -1,0 +1,702 @@
+[
+    {
+        "majorID": "1",
+        "majorName": "Accounting",
+        "offeredByUniversity": ["1", "12", "14", "2"],
+        "interests": ["Conventional", "Enterprising"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "2",
+        "majorName": "Aeronautical Engineering",
+        "offeredByUniversity": ["2"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "3",
+        "majorName": "Arabic Language",
+        "offeredByUniversity": ["1"],
+        "interests": ["Artistic", "Social"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "4",
+        "majorName": "Architecture",
+        "offeredByUniversity": ["1", "16"],
+        "interests": ["Artistic", "Realistic"],
+        "personalityTraits": ["Openness to Experience", "Conscientiousness"]
+    },
+    {
+        "majorID": "5",
+        "majorName": "Art History",
+        "offeredByUniversity": ["9"],
+        "interests": ["Investigative", "Artistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "6",
+        "majorName": "Artificial Intelligence",
+        "offeredByUniversity": ["16"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Openness to Experience", "Conscientiousness"]
+    },
+    {
+        "majorID": "7",
+        "majorName": "Arts Education",
+        "offeredByUniversity": ["1"],
+        "interests": ["Artistic", "Social"],
+        "personalityTraits": ["Openness to Experience", "Agreeableness"]
+    },
+    {
+        "majorID": "8",
+        "majorName": "Aviation Management",
+        "offeredByUniversity": ["2"],
+        "interests": ["Enterprising", "Realistic"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "9",
+        "majorName": "Biological Sciences",
+        "offeredByUniversity": ["1", "4"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Openness to Experience", "Conscientiousness"]
+    },
+    {
+        "majorID": "10",
+        "majorName": "Biomedical Engineering",
+        "offeredByUniversity": ["16"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "11",
+        "majorName": "Biomedical Sciences",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "12",
+        "majorName": "Business Management",
+        "offeredByUniversity": ["1", "11", "12", "14", "16", "3", "4"],
+        "interests": ["Enterprising", "Conventional"],
+        "personalityTraits": ["Extraversion", "Conscientiousness"]
+    },
+    {
+        "majorID": "13",
+        "majorName": "Business Management and International Relations",
+        "offeredByUniversity": ["14"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Extraversion", "Openness to Experience"]
+    },
+    {
+        "majorID": "14",
+        "majorName": "Chemical Engineering",
+        "offeredByUniversity": ["1", "2", "6", "8"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "15",
+        "majorName": "Chemistry",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "16",
+        "majorName": "Civil Engineering",
+        "offeredByUniversity": ["1", "13", "2"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "17",
+        "majorName": "Communication",
+        "offeredByUniversity": ["7"],
+        "interests": ["Social", "Artistic"],
+        "personalityTraits": ["Extraversion", "Openness to Experience"]
+    },
+    {
+        "majorID": "18",
+        "majorName": "Computer Engineering",
+        "offeredByUniversity": ["1", "6"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "19",
+        "majorName": "Computer Science",
+        "offeredByUniversity": ["1", "13", "14", "16", "4"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "20",
+        "majorName": "Counselling and Mental Health",
+        "offeredByUniversity": ["11"],
+        "interests": ["Social", "Investigative"],
+        "personalityTraits": ["Agreeableness", "Emotional Stability"]
+    },
+    {
+        "majorID": "21",
+        "majorName": "Creed and Dawa",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Conventional"],
+        "personalityTraits": ["Agreeableness"]
+    },
+    {
+        "majorID": "22",
+        "majorName": "Culture and Politics",
+        "offeredByUniversity": ["5"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "23",
+        "majorName": "Cyber and Network Security",
+        "offeredByUniversity": ["3"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "24",
+        "majorName": "Data Science and Artificial Intelligence",
+        "offeredByUniversity": ["2"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "25",
+        "majorName": "Data and Cyber Security",
+        "offeredByUniversity": ["2"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "26",
+        "majorName": "Dental Hygiene",
+        "offeredByUniversity": ["2"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Agreeableness", "Conscientiousness"]
+    },
+    {
+        "majorID": "27",
+        "majorName": "Digital Communication and Media Production",
+        "offeredByUniversity": ["2"],
+        "interests": ["Artistic", "Enterprising"],
+        "personalityTraits": ["Openness to Experience", "Extraversion"]
+    },
+    {
+        "majorID": "28",
+        "majorName": "Doctor of Dental Medicine",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness", "Agreeableness"]
+    },
+    {
+        "majorID": "29",
+        "majorName": "Economics",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "30",
+        "majorName": "Electrical Engineering",
+        "offeredByUniversity": ["1", "16", "2", "3", "6", "8"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "31",
+        "majorName": "English Literature and Linguistics",
+        "offeredByUniversity": ["1"],
+        "interests": ["Artistic", "Investigative"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "32",
+        "majorName": "Entrepreneurship",
+        "offeredByUniversity": ["15"],
+        "interests": ["Enterprising"],
+        "personalityTraits": ["Extraversion", "Openness to Experience"]
+    },
+    {
+        "majorID": "33",
+        "majorName": "Environmental Health",
+        "offeredByUniversity": ["2"],
+        "interests": ["Social", "Investigative"],
+        "personalityTraits": ["Agreeableness", "Conscientiousness"]
+    },
+    {
+        "majorID": "34",
+        "majorName": "Environmental Sciences",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Openness to Experience", "Conscientiousness"]
+    },
+    {
+        "majorID": "35",
+        "majorName": "Event Management",
+        "offeredByUniversity": ["12"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Extraversion"]
+    },
+    {
+        "majorID": "36",
+        "majorName": "Finance",
+        "offeredByUniversity": ["1", "15", "2"],
+        "interests": ["Conventional", "Enterprising"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "37",
+        "majorName": "Fine Arts",
+        "offeredByUniversity": ["1"],
+        "interests": ["Artistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "38",
+        "majorName": "Fiqh and Usul",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "39",
+        "majorName": "Game Design and Development",
+        "offeredByUniversity": ["16"],
+        "interests": ["Artistic", "Realistic"],
+        "personalityTraits": ["Openness to Experience", "Conscientiousness"]
+    },
+    {
+        "majorID": "40",
+        "majorName": "Geography",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "41",
+        "majorName": "Global Business with Data Analytics",
+        "offeredByUniversity": ["16"],
+        "interests": ["Enterprising", "Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "42",
+        "majorName": "Graphic Design",
+        "offeredByUniversity": ["9"],
+        "interests": ["Artistic"],
+        "personalityTraits": ["Openness to Experience", "Conscientiousness"]
+    },
+    {
+        "majorID": "43",
+        "majorName": "Healthcare Management",
+        "offeredByUniversity": ["2"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "44",
+        "majorName": "History",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Artistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "45",
+        "majorName": "Human Resource Management",
+        "offeredByUniversity": ["11", "13", "2", "3"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Agreeableness", "Extraversion"]
+    },
+    {
+        "majorID": "46",
+        "majorName": "Industrial and Systems Engineering",
+        "offeredByUniversity": ["1"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "47",
+        "majorName": "Information Systems",
+        "offeredByUniversity": ["1", "14", "2", "4"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "48",
+        "majorName": "Information Technology",
+        "offeredByUniversity": ["11", "16", "2"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "49",
+        "majorName": "Innovation and Entrepreneurship",
+        "offeredByUniversity": ["11"],
+        "interests": ["Enterprising"],
+        "personalityTraits": ["Openness to Experience", "Extraversion"]
+    },
+    {
+        "majorID": "50",
+        "majorName": "Insurance and Risk Management",
+        "offeredByUniversity": ["11"],
+        "interests": ["Conventional", "Enterprising"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "51",
+        "majorName": "Interior Design",
+        "offeredByUniversity": ["9"],
+        "interests": ["Artistic", "Realistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "52",
+        "majorName": "International Affairs",
+        "offeredByUniversity": ["1"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Openness to Experience", "Extraversion"]
+    },
+    {
+        "majorID": "53",
+        "majorName": "International Economics",
+        "offeredByUniversity": ["5"],
+        "interests": ["Investigative", "Enterprising"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "54",
+        "majorName": "International History",
+        "offeredByUniversity": ["5"],
+        "interests": ["Investigative", "Social"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "55",
+        "majorName": "International Hospitality Management",
+        "offeredByUniversity": ["12"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Extraversion", "Agreeableness"]
+    },
+    {
+        "majorID": "56",
+        "majorName": "International Politics",
+        "offeredByUniversity": ["5"],
+        "interests": ["Enterprising", "Investigative"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "57",
+        "majorName": "Islamic Studies",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "58",
+        "majorName": "Journalism and Strategic Communication",
+        "offeredByUniversity": ["7"],
+        "interests": ["Artistic", "Enterprising"],
+        "personalityTraits": ["Extraversion", "Openness to Experience"]
+    },
+    {
+        "majorID": "59",
+        "majorName": "Kinetic Imaging",
+        "offeredByUniversity": ["9"],
+        "interests": ["Artistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "60",
+        "majorName": "Law",
+        "offeredByUniversity": ["1", "11", "16"],
+        "interests": ["Enterprising", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "61",
+        "majorName": "Logistics and Supply Chain Management",
+        "offeredByUniversity": ["11", "2", "3"],
+        "interests": ["Conventional", "Enterprising"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "62",
+        "majorName": "Marine Engineering",
+        "offeredByUniversity": ["2"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "63",
+        "majorName": "Marketing",
+        "offeredByUniversity": ["1", "11", "2"],
+        "interests": ["Enterprising", "Artistic"],
+        "personalityTraits": ["Extraversion", "Openness to Experience"]
+    },
+    {
+        "majorID": "64",
+        "majorName": "Mass Communication",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Artistic"],
+        "personalityTraits": ["Extraversion", "Openness to Experience"]
+    },
+    {
+        "majorID": "65",
+        "majorName": "Mathematics",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "66",
+        "majorName": "Mechanical Engineering",
+        "offeredByUniversity": ["1", "13", "2", "3", "6", "8"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "67",
+        "majorName": "Mechatronics Engineering",
+        "offeredByUniversity": ["1"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "68",
+        "majorName": "Medical Radiography",
+        "offeredByUniversity": ["2"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "69",
+        "majorName": "Medicine",
+        "offeredByUniversity": ["1", "10"],
+        "interests": ["Investigative", "Social"],
+        "personalityTraits": ["Conscientiousness", "Emotional Stability"]
+    },
+    {
+        "majorID": "70",
+        "majorName": "Midwifery",
+        "offeredByUniversity": ["2"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Agreeableness", "Emotional Stability"]
+    },
+    {
+        "majorID": "71",
+        "majorName": "Nursing",
+        "offeredByUniversity": ["1", "2"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Agreeableness", "Emotional Stability"]
+    },
+    {
+        "majorID": "72",
+        "majorName": "Nutrition and Dietetics",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Social"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "73",
+        "majorName": "Occupational Health, Safety and Environment",
+        "offeredByUniversity": ["2"],
+        "interests": ["Conventional", "Social"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "74",
+        "majorName": "Painting and Printmaking",
+        "offeredByUniversity": ["9"],
+        "interests": ["Artistic"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "75",
+        "majorName": "Paramedicine",
+        "offeredByUniversity": ["2"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Emotional Stability", "Agreeableness"]
+    },
+    {
+        "majorID": "76",
+        "majorName": "Petroleum Engineering",
+        "offeredByUniversity": ["8"],
+        "interests": ["Realistic", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "77",
+        "majorName": "Pharmacy",
+        "offeredByUniversity": ["1", "2"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness", "Agreeableness"]
+    },
+    {
+        "majorID": "78",
+        "majorName": "Physical Education",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Extraversion"]
+    },
+    {
+        "majorID": "79",
+        "majorName": "Physics",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness", "Openness to Experience"]
+    },
+    {
+        "majorID": "80",
+        "majorName": "Physiotherapy",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Agreeableness"]
+    },
+    {
+        "majorID": "81",
+        "majorName": "Political Science",
+        "offeredByUniversity": ["11"],
+        "interests": ["Investigative", "Enterprising"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "82",
+        "majorName": "Politics and International Relations",
+        "offeredByUniversity": ["14"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Openness to Experience", "Extraversion"]
+    },
+    {
+        "majorID": "83",
+        "majorName": "Primary Education",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social"],
+        "personalityTraits": ["Agreeableness"]
+    },
+    {
+        "majorID": "84",
+        "majorName": "Psychology",
+        "offeredByUniversity": ["1", "16"],
+        "interests": ["Investigative", "Social"],
+        "personalityTraits": ["Openness to Experience", "Agreeableness"]
+    },
+    {
+        "majorID": "85",
+        "majorName": "Public Health",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Investigative"],
+        "personalityTraits": ["Agreeableness", "Conscientiousness"]
+    },
+    {
+        "majorID": "86",
+        "majorName": "Quantity Surveying",
+        "offeredByUniversity": ["13"],
+        "interests": ["Conventional", "Realistic"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "87",
+        "majorName": "Quran and Sunnah",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "88",
+        "majorName": "Respiratory Therapy",
+        "offeredByUniversity": ["2"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Agreeableness", "Conscientiousness"]
+    },
+    {
+        "majorID": "89",
+        "majorName": "Secondary Education",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Investigative"],
+        "personalityTraits": ["Agreeableness"]
+    },
+    {
+        "majorID": "90",
+        "majorName": "Social Work",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social"],
+        "personalityTraits": ["Agreeableness", "Emotional Stability"]
+    },
+    {
+        "majorID": "91",
+        "majorName": "Sociology",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Social"],
+        "personalityTraits": ["Openness to Experience"]
+    },
+    {
+        "majorID": "92",
+        "majorName": "Software Engineering",
+        "offeredByUniversity": ["13", "2"],
+        "interests": ["Investigative", "Realistic"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "93",
+        "majorName": "Special Education",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social"],
+        "personalityTraits": ["Agreeableness", "Emotional Stability"]
+    },
+    {
+        "majorID": "94",
+        "majorName": "Speech and Language Pathology",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Investigative"],
+        "personalityTraits": ["Agreeableness"]
+    },
+    {
+        "majorID": "95",
+        "majorName": "Sport Coaching",
+        "offeredByUniversity": ["1"],
+        "interests": ["Social", "Realistic"],
+        "personalityTraits": ["Extraversion"]
+    },
+    {
+        "majorID": "96",
+        "majorName": "Sport Management",
+        "offeredByUniversity": ["1"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Extraversion"]
+    },
+    {
+        "majorID": "97",
+        "majorName": "Statistics",
+        "offeredByUniversity": ["1"],
+        "interests": ["Investigative", "Conventional"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "98",
+        "majorName": "Teaching English Language",
+        "offeredByUniversity": ["11"],
+        "interests": ["Social", "Artistic"],
+        "personalityTraits": ["Agreeableness"]
+    },
+    {
+        "majorID": "99",
+        "majorName": "Teaching STEM",
+        "offeredByUniversity": ["2"],
+        "interests": ["Social", "Investigative"],
+        "personalityTraits": ["Conscientiousness"]
+    },
+    {
+        "majorID": "100",
+        "majorName": "Tourism Management",
+        "offeredByUniversity": ["12"],
+        "interests": ["Enterprising", "Social"],
+        "personalityTraits": ["Extraversion"]
+    }
+]

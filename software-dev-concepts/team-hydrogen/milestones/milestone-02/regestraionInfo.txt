@@ -1,0 +1,12 @@
+regestraion 1:
+VIN: 2001B7F2
+C_owner: name: Ahmed QID: 200010905
+payments: 0
+P_owner: name: Khalid QID: 199903090
+makeyaer:2011
+
+regestraion 2:
+VIN: 2001B6F6
+C_owner: name: Hani QID: 200010420
+payments: 0
+P_owner: name: Hamdi QID: 199903690

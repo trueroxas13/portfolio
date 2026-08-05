@@ -1,0 +1,23 @@
+@startuml Registration
+actor User as User
+boundary RegisterUI as regUI
+control DataHandler as handler
+participant Registration as reg 
+database Users  as users
+
+autonumber
+User -> regUI: getAddress()
+regUI -> handler: forwardAddress(address)
+handler -> users: queryAddress(address)
+users -> regUI: (does not exist) confirmValidAddress()
+
+User -> regUI: getDetails()
+regUI -> handler: forwardDetails(firstName, lastName...)
+handler -> reg: verifyAge(age)
+handler -> reg: verifyToS()
+reg -> User: sendVerificationEmail()
+
+User -> reg: verifyEmail()
+
+reg -> users: createUser()
+@enduml

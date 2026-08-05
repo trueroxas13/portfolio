@@ -1,0 +1,99 @@
+{
+    "Interests": {
+        "Realistic": [
+            "Build",
+            "Machines",
+            "Things",
+            "Plants",
+            "Animals",
+            "Outdoors",
+            "Hands-on"
+        ],
+        "Investigative": [
+            "Observe",
+            "Analyze",
+            "Problem Solving",
+            "Science",
+            "Math",
+            "Ideas"
+        ],
+        "Artistic": [
+            "Creative",
+            "Music",
+            "Drama",
+            "Design",
+            "Media",
+            "Self-expression"
+        ],
+        "Social": [
+            "Teach",
+            "People",
+            "Communicate",
+            "Service",
+            "Helping",
+            "Guide"
+        ],
+        "Enterprising": [
+            "Lead",
+            "Decisions",
+            "Action",
+            "Business",
+            "Risk-taking",
+            "Persuade"
+        ],
+        "Conventional": [
+            "Data",
+            "Procedures",
+            "Routines",
+            "Standards",
+            "Detail"
+        ]
+    },
+    "PersonalityTraits": {
+        "Conscientiousness": [
+            "Dependability",
+            "Grit",
+            "Organization",
+            "Persistence",
+            "Planning",
+            "Punctuality",
+            "Responsibility"
+        ],
+        "Agreeableness": [
+            "Collaboration",
+            "Collegiality",
+            "Generosity",
+            "Honesty",
+            "Integrity",
+            "Kindness",
+            "Trustworthiness"
+        ],
+        "Emotional Stability": [
+            "Confidence",
+            "Coping with Stress",
+            "Moderation",
+            "Resilience",
+            "Self-Esteem",
+            "Self-Consciousness",
+            "Self-Regulation"
+        ],
+        "Extraversion": [
+            "Assertiveness",
+            "Cheerfulness",
+            "Communication",
+            "Optimism",
+            "Leadership",
+            "Liveliness",
+            "Sociability"
+        ],
+        "Openness to Experience": [
+            "Curiosity",
+            "Creativity",
+            "Global Awareness",
+            "Growth Mindset",
+            "Imagination",
+            "Innovation",
+            "Tolerance"
+        ]
+    }
+}

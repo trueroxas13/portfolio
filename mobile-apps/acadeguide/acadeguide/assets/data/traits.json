@@ -1,0 +1,49 @@
+[
+{
+    "Conscientiousness": [
+            "Dependability",
+            "Grit",
+            "Organization",
+            "Persistence",
+            "Planning",
+            "Punctuality",
+            "Responsibility"
+        ],
+        "Agreeableness": [
+            "Collaboration",
+            "Collegiality",
+            "Generosity",
+            "Honesty",
+            "Integrity",
+            "Kindness",
+            "Trustworthiness"
+        ],
+        "Emotional Stability": [
+            "Confidence",
+            "Coping with Stress",
+            "Moderation",
+            "Resilience",
+            "Self-Esteem",
+            "Self-Consciousness",
+            "Self-Regulation"
+        ],
+        "Extraversion": [
+            "Assertiveness",
+            "Cheerfulness",
+            "Communication",
+            "Optimism",
+            "Leadership",
+            "Liveliness",
+            "Sociability"
+        ],
+        "Openness to Experience": [
+            "Curiosity",
+            "Creativity",
+            "Global Awareness",
+            "Growth Mindset",
+            "Imagination",
+            "Innovation",
+            "Tolerance"
+        ]
+}
+]

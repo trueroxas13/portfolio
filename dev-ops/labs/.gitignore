@@ -1,0 +1,9 @@
+*
+!*/
+!*.md
+!*.sh
+!*.c
+!*.java
+!*.txt
+!.clang-format
+!.gitignore

@@ -1,0 +1,56 @@
+# Milestone 2
+### The Corresponding Use Case Specifications of The Implemented Sequence Diagrams
+- Only the normal scenarios were implemented as specified by the task's requiremnets.
+
+| Use case id: 101                                 | Renew Vehicle Registration                                                                                                                                                                          |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Brief description                                | Allows a vehicle owner to register a new vehicle by providing necessary details, purchasing insurance, and completing payment.                                                                                 |
+| Primary actors                                   | Vehicle Owner, Insurance Company                                                                                                                                                                               |
+| Trigger(s)                                       | Registration/ Registration Renewal service is requested.                                                                                                                                                       |
+| Preconditions:                                   | 1. Vehicle owner must exist as a customer in the system.<br>2. Vehicle owner must have an insurance policy for the new vehicle yet to be registered.<br>3. VIN must be valid and verified by the manufacturer. |
+| Post-conditions:                                 | 1. A new registration sticker is assigned. <br>2. The insurance policy is attached to the vehicle registration.                                                                                                |
+| Normal scenario (Response Table):                |                                                                                                                                                                                                                |
+| Actor Action                                     | System Response                                                                                                                                                                                                |
+| 1. Vehicle owner enters the VIN into the system  | 2. Retrieves the registration details and checks if the vehicle is over two years old. (2a)                                                                                                                    |
+|                                                  | 3. Request the compulsory insurance policy.                                                                                                                                                                    |
+| 4. Insurance Company sends the insurance policy. |                                                                                                                                                                                                                |
+|                                                  | 5. Checks for any unpaid fines for traffic offenses. (5a)                                                                                                                                                      |
+|                                                  | 6. Creates a new registration with the same validation period as specified in the new insurance policy.                                                                                                        |
+|                                                  | 7. Insurance policy and the fitness certificate are then attached concurrently with the vehicle registration.                                                                                                  |
+|                                                  | 8. System makes an invoice for the registration renewal.                                                                                                                                                       |
+| Alternative flows:                               |                                                                                                                                                                                                                |
+| 2a                                               | If the vehicle is over 2 years old and doesn't have a fitness certificate, the system displays the message “Get fitness certificate first”.                                                                    |
+| 5a                                               | If there are unpaid traffic fines, the system terminates with the message "Pay the bill first" <<extend: Make Payment>>.                                                                                       |
+
+---
+| Use case Id: 104                                                                       | Issue Confiscation Order                                                                                                                                             |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Brief description                                                                      | This use case describes the process of issuing a confiscation order by a police officer for a vehicle due to red-light offenses.                                      |
+| Primary actors                                                                         | Traffic Police Officer                                                                                                                                                |
+| Trigger(s)                                                                             | Traffic police officer enters a period and selects a red-light offense type                                                                                           |
+| Preconditions:                                                                         | 1. The vehicle must have an existing registration.<br>2. Vehicles must exceed a certain number of red-light offenses during a specified period by the officer.        |
+| Post-conditions:                                                                       | 1. The vehicle's registration is canceled.<br>2. The vehicle owner is notified of the confiscation order.<br>3. The order is broadcasted to all police departments.   |
+| Normal Scenario                                                                        |                                                                                                                                                                       |
+| Actor Action                                                                           | System Response                                                                                                                                                       |
+| 1. Traffic officer enters the period                                                   |                                                                                                                                                                       |
+| 2. Traffic officer selects the redlight offence type                                   | 3. find list of vehicles that match criteria. (3a.), (3b.).                                                                                                           |
+| 4. Traffic officer selects vehicles that exceed a certain number of red-light offences | 5. create confiscating order for those vehicles                                                                                                                       |
+|                                                                                        | 6. ask for confirmation from traffic police                                                                                                                           |
+| 7. Traffic officer confirmations request                                               | 8. save confirmation. (8a.)                                                                                                                                           |
+|                                                                                        | 9. cancel registration of specified vehicles                                                                                                                          |
+|                                                                                        | 10. inform each vehicle owner of registration cancelation                                                                                                             |
+|                                                                                        | 11. broadcast orders to all police departments.                                                                                                                       |
+| Alternative flows:                                                                     |                                                                                                                                                                       |
+| 3a.                                                                                    | if the criteria is invalid no matching vehicles found, returns to selection page\|                                                                                    |
+| 8a.                                                                                    | If confirmation was disapproved by traffic officer, cancels confiscation order                                                                                        |
+| Special Requirements                                                                   |                                                                                                                                                                       |
+| Legal Authorization Verification                                                       | The system should confirm that the user issuing the confiscation order possesses the required legal authority, ensuring adherence to applicable laws and regulations. |
+
+### Assumptions
+- In `sequence-diagram-04-confiscation-order` inside `project.vpp`, "PoliceDepartmentNetwork" is assumed to be external to the system and is represented a gate.
+-
+- ...
+
+### Patch Notes
+- Implemented JUNIT 5 testing for vehicle owner QID (makes sure it is an integer value) and fitness certificate ID (checks if it is correctly assigned)
+- Added a JUNIT 5 test for the counter that tracks the ID assignment for fitness certificates

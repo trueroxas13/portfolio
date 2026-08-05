@@ -1,0 +1,1 @@
+# Nmap 7.92 scan initiated Sun Dec  1 14:01:47 2024 as: nmap -sS -oN detailed_scan.txt 192.168.1.31/24

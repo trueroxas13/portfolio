@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "questionText": "When working on a project, which type of activities do you enjoy the most?",
+    "answers": [
+      { "id": 1, "text": "Building or fixing things.", "interest": "Build" },
+      { "id": 2, "text": "Working with machines or tools.", "interest": "Machines" },
+      { "id": 3, "text": "Handling physical materials or equipment.", "interest": "Things" },
+      { "id": 4, "text": "Taking care of plants or nature.", "interest": "Plants" },
+      { "id": 5, "text": "Caring for animals.", "interest": "Animals" },
+      { "id": 6, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 2,
+    "questionText": "If you had free time to explore something new, what would you prefer?",
+    "answers": [
+      { "id": 7, "text": "Spending time outdoors.", "interest": "Outdoors" },
+      { "id": 8, "text": "Doing hands-on or practical activities.", "interest": "Hands-on" },
+      { "id": 9, "text": "Observing natural or human behavior.", "interest": "Observe" },
+      { "id": 10, "text": "Analyzing problems and finding causes.", "interest": "Analyze" },
+      { "id": 11, "text": "Solving logic or math puzzles.", "interest": "Problem Solving" },
+      { "id": 12, "text": "N/A (None of the answers are applicable)", "interest": "" }
+      
+    ]
+  },
+  {
+    "id": 3,
+    "questionText": "Which school-related topics or skills attract you the most?",
+    "answers": [
+      { "id": 13, "text": "Science experiments and discoveries.", "interest": "Science" },
+      { "id": 14, "text": "Working with numbers and equations.", "interest": "Math" },
+      { "id": 15, "text": "Exploring complex or abstract ideas.", "interest": "Ideas" },
+      { "id": 16, "text": "Expressing creativity through art or writing.", "interest": "Creative" },
+      { "id": 17, "text": "Designing or innovating new things.", "interest": "Design" },
+      { "id": 18, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 4,
+    "questionText": "Which form of expression or communication do you find most engaging?",
+    "answers": [
+      { "id": 19, "text": "Expressing myself through music.", "interest": "Music" },
+      { "id": 20, "text": "Acting or performing in front of others.", "interest": "Drama" },
+      { "id": 21, "text": "Creating content or experimenting with media.", "interest": "Media" },
+      { "id": 22, "text": "Sharing personal experiences and ideas.", "interest": "Self-expression" },
+      { "id": 23, "text": "Communicating effectively with others.", "interest": "Communicate" },
+      { "id": 24, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 5,
+    "questionText": "When thinking about your future career, which type of role appeals to you the most?",
+    "answers": [
+      { "id": 25, "text": "Teaching or mentoring others.", "interest": "Teach" },
+      { "id": 26, "text": "Providing services or support to others.", "interest": "Service" },
+      { "id": 27, "text": "Helping people solve challenges.", "interest": "Helping" },
+      { "id": 28, "text": "Guiding or advising others.", "interest": "Guide" },
+      { "id": 29, "text": "Leading teams or managing projects.", "interest": "Lead" },
+      { "id": 30, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 6,
+    "questionText": "Which traits best describe how you handle responsibilities?",
+    "answers": [
+      { "id": 31, "text": "People can depend on me.", "interest": "Dependability" },
+      { "id": 32, "text": "I like keeping things organized.", "interest": "Organization" },
+      { "id": 33, "text": "I plan ahead to achieve my goals.", "interest": "Planning" },
+      { "id": 34, "text": "I value being punctual.", "interest": "Punctuality" },
+      { "id": 35, "text": "I take responsibility for my actions.", "interest": "Responsibility" },
+      { "id": 36, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 7,
+    "questionText": "When working with others, what do you value most in yourself?",
+    "answers": [
+      { "id": 37, "text": "Collaboration and teamwork.", "interest": "Collaboration" },
+      { "id": 38, "text": "Being supportive and collegial.", "interest": "Collegiality" },
+      { "id": 39, "text": "Being generous and kind.", "interest": "Generosity" },
+      { "id": 40, "text": "Being honest and transparent.", "interest": "Honesty" },
+      { "id": 41, "text": "Acting with integrity.", "interest": "Integrity" },
+      { "id": 42, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 8,
+    "questionText": "In challenging situations, which quality describes you best?",
+    "answers": [
+      { "id": 43, "text": "Staying confident under pressure.", "interest": "Confidence" },
+      { "id": 44, "text": "Managing stress effectively.", "interest": "Coping with Stress" },
+      { "id": 45, "text": "Bouncing back from difficulties.", "interest": "Resilience" },
+      { "id": 46, "text": "Staying calm and in control.", "interest": "Self-Regulation" },
+      { "id": 47, "text": "Practicing balance and moderation.", "interest": "Moderation" },
+      { "id": 48, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 9,
+    "questionText": "In social situations, which traits describe you most accurately?",
+    "answers": [
+      { "id": 49, "text": "Being assertive and direct.", "interest": "Assertiveness" },
+      { "id": 50, "text": "Being friendly and sociable.", "interest": "Sociability" },
+      { "id": 51, "text": "Staying cheerful and positive.", "interest": "Cheerfulness" },
+      { "id": 52, "text": "Being a good communicator.", "interest": "Communication" },
+      { "id": 53, "text": "Taking initiative or leadership in groups.", "interest": "Leadership" },
+      { "id": 54, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  },
+  {
+    "id": 10,
+    "questionText": "When learning or exploring new ideas, which traits guide you most?",
+    "answers": [
+      { "id": 55, "text": "Curiosity drives me to learn more.", "interest": "Curiosity" },
+      { "id": 56, "text": "Creativity helps me find unique solutions.", "interest": "Creativity" },
+      { "id": 57, "text": "I believe in improving myself through effort.", "interest": "Growth Mindset" },
+      { "id": 58, "text": "I use imagination to see possibilities.", "interest": "Imagination" },
+      { "id": 59, "text": "I like innovating and trying new approaches.", "interest": "Innovation" },
+      { "id": 60, "text": "N/A (None of the answers are applicable)", "interest": "" }
+    ]
+  }
+]

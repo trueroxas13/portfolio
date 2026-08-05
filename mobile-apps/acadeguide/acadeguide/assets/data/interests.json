@@ -1,0 +1,51 @@
+[{
+    "Realistic": [
+            "Build",
+            "Machines",
+            "Things",
+            "Plants",
+            "Animals",
+            "Outdoors",
+            "Hands-on"
+        ],
+        "Investigative": [
+            "Observe",
+            "Analyze",
+            "Problem Solving",
+            "Science",
+            "Math",
+            "Ideas"
+        ],
+        "Artistic": [
+            "Creative",
+            "Music",
+            "Drama",
+            "Design",
+            "Media",
+            "Self-expression"
+        ],
+        "Social": [
+            "Teach",
+            "People",
+            "Communicate",
+            "Service",
+            "Helping",
+            "Guide"
+        ],
+        "Enterprising": [
+            "Lead",
+            "Decisions",
+            "Action",
+            "Business",
+            "Risk-taking",
+            "Persuade"
+        ],
+        "Conventional": [
+            "Data",
+            "Procedures",
+            "Routines",
+            "Standards",
+            "Detail"
+        ]
+}
+]

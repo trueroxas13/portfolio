@@ -1,0 +1,14 @@
+---
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 80
+
+---
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Right
+InsertBraces: true
+
+---
+Language: Java
+SortIncludes: true

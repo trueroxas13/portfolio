@@ -1,0 +1,119 @@
+- ClassName
+	- attributeName
+### Candidate Classes
+- Vehicle 
+	- vin
+	- vehicleMake (manufacturer??)
+	- model
+	- manufactureYear
+	- registered (boolean)
+	- previousOwner
+	- currentOwner
+	- ...
+		Methods
+		- calculateAge
+		- ...
+- Registration
+	- vin
+	- registrationNumber
+	- vehicleOwner
+	- startDate
+	- expiryDate
+- InsuranceCompany
+	- companyId
+	- companyName
+	- contactDetails
+- InsurancePolicy
+	- policyNumber
+	- validity (a date??)
+		- issuingDate
+		- expiryDate
+	- issuingCompany
+	- vin
+	- **price**: Regular payment amount.
+	- **coverageAmount**: Maximum coverage offered by the policy.
+	- **status**: Active or expired state.
+- Workshop
+	- workshopId
+	- workshopName
+	- location
+	- contactDetails
+- FitnessCertificate
+	- certificateId
+	- issueDate
+	- expiryDate
+	- vehicle
+	- workshop
+	- inspectionResult (??)
+- VehicleOwner
+	- name
+	- qid
+	- address
+- CreditCard
+	- number
+	- cardholderName
+	- validity (a date??)
+- Accident / AccidentReport
+	- dateTime
+	- location
+	- description
+	- victimVehicle
+	- offendingVehicle
+	- caseNumber
+	- policeId
+	- ...
+- ~~Charge~~
+	- ~~type (string)~~
+	- ~~status~~
+	- ~~amount~~
+	- ~~note: charges = registration fees / invoices, traffic fines~~
+- Payable ~Interface
+	- pay();
+	- 
+	- TrafficFine
+		- vin
+		- amount
+		- date
+		- status
+		- type (Enum Offense: RedLightOffense, AccidentOffense)
+		- 
+		- ...
+		Methods
+			- 
+			- ...
+	- Invoice / RegistrationFee
+		- vin
+		- amount
+		- date
+		- status
+		- 
+		- ...
+		Methods
+			- 
+			- ...
+- PaymentReceipt
+	- approvalNumber
+	- ...
+- ConfiscationOrder
+	- ...
+- ...
+---
+### Multiplicities
+- "Each Vehicle must have its own InsurancePolicy, and an InsurancePolicy is valid for only one Vehicle."
+- A Registration can belong to one Vehicle, a Vehicle can have one Registration
+- "Each certificate is valid for only one vehicle; however, a workshop can issue multiple certificates."
+	- Each certificate is valid for only one vehicle
+	- A Vehicle can have 0 or 1 certificate (if over 2 years old).
+	- 
+- "A **registered** Vehicle can have only one current VehicleOwner, but a VehicleOwner can have 
+- multiple Vehicles."
+- A Vehicle may have 0 or many Accidents, but an Accident belongs to 2 and only 2 Vehicles.
+- **An Accident uses one InsurancePolicy, but an InsurancePolicy can be used for 0 or many Accidents.** – verify 
+- VehicleOwner must have at least one CreditCard (1.. * ), a CreditCard must belong to one and only one VehicleOwner ( 1 ).
+- A Charge can belong to one and only one VehicleOwner, but a VehicleOwner can have 0 or many Charges.
+- "A ConfiscationOrder is attached with only one Vehicle (1); however, one Vehicle can get more than one ConfiscationOrder ( 0 or many (??))"
+- "An InsuranceCompany can sell many InsurancePolicy", an InsurancePolicy belongs to one InsuranceCompany
+- A Workshop can issue FitnessCertificates, a FitnessCertificates belongs to one Workshop
+- ...
+
+---

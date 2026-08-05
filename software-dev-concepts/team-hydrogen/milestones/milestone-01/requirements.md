@@ -1,0 +1,41 @@
+# REQUIREMENTS
+- This is the main file where we record the requirements, which are split between functional and non-functional. Use cases will be driven from these.
+- Note: qPay is used to handle transactions in this automated system. It is treated as a separate entity, thus will function as an actor. Qatar Trading Service (QTS) is also an actor since it is outside the system.
+## Functional
+- Transaction handling system to manage transactions for penalties, registration fees, paying employees, etc. (This is handled with qPay's help)
+- Penalty management system (issues penalties/ fines)
+- Accidents management system (would need to record history and details...)
+- Registration management system (to handle registration/ renewal/ transfers of ownerships)
+- To register/ renew registration, owner must have an insurance policy from an insurance company (for each vehicle, aka a one-to-one relationship).
+- The system must verify user credentials when transferring ownership.
+- The system must be able to communicate with QTS to check if the vehicle is imported.
+- Vehicle owners, insurance companies, and authorized workshops need their own login identifiers (but according to the document, it is assumed that this is already implemented so we do not need to design this).
+- Vehicles must have VIN (unique for each vehicle).
+- For vehicles that are over 2 years old since first purchase or 2 years old since last renewal, the iQVR system must record a fitness certificate issued by an authorized workshops in Qatar which must be renewed every 2 years of registration (included this assumption part in milestone-01/readme.md).
+- System must generate an acknowledgement receipt for the workshop after storing this certificate and other relevant information.
+- The ability to generate a registration sticker
+- System should have a workflow to generate invoices for transfers (paid later by the new owner) and renewals.
+- When reporting an accident, the reporter is first assumed to be the offending vehicle's owner, which is then confirmed by the reporter.
+	- After confirmation of an accident report, the information is stored by the system.
+- Affected parties of an accident, and the involved policy workshops, should be able to retrieve accident reports.
+- Payments are initially handled by the system, then forwarded to qPay for further processing/ approval.
+- qPay sends a receipt after the payment is approved, along with approval advice and concurrently sets invoices as paid.
+- The system must be able to filter offense records.
+- The system must be able to issue a confiscation order if certain criteria is met, the owner is notified when this happens as well.
+- The system does not record information regarding traffic police besides their login data.
+- Records of all external acknowledgements and responses must be kept by the system.
+## Non-functional
+- Vehicles cannot have more than one insurance policy associated with them, and vice versa.
+- Vehicles must have exactly one VIN each.
+- Registered vehicles can only have one owner, but an owner can have multiple registered vehicles.
+- Vehicle fitness certificates are valid for one vehicle each, but workshops can issue multiple certificates.
+- Vehicles cannot be registered without the owner's QID, name, address, and mobile number. This also applies for transfers.
+- Cannot transfer ownership/ apply for renewal of registered vehicles if there are unpaid bills.
+- Cannot apply for renewal of registration if vehicle fitness certificate does not exist
+- Must not handle accidents without the provision of date, time, location, and an accident description.
+- Accident case numbers must be unique.
+- Invoices should be paid using a credit card.
+- Credit cards must be valid for payment.
+- Searching through offense records needs to have filtering based on time ranges or offense types.
+- A confiscation order can only be attached to one vehicle, however a vehicle can have more than one of such orders.
+

@@ -1,0 +1,23 @@
+abc@.com
+@somedomain.com
+someemail@somedomain.com
+ma2002453@qu.edu.qa
+ma_2002453@qu.qa
+otheremail@abc.def.ghijk
+newemail@ab34.com
+
+2002-02-04
+2002-3247-003948
+2002-FEB-04
+2002-FEBMSAD-04
+
+(974) 4400 1234
+Access Code: AB-1234-ZX
+Transaction ID: TXN_2043334893_049
+ZIP: 90210
+Invalid ZIP : 999
+Price: $123.56
+Website: http://example.com
+Empty line:
+
+Random noise: *$#@@!
