@@ -1,0 +1,2 @@
+**NOTE**
+While previewing the kiosk skins, ensure that the **skeleton** collection is always visible, then turn visibility off for other collection and turn a named collection's visibility on of your choice to view that particular kiosk skin sample. The **resources** and **Collection** collections are not skins, they contain backups and useful resources for the making of the skins.  
